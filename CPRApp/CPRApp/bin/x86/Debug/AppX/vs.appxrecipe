@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-30T16:16:59.453</Modified>
+      <Modified>2017-04-04T11:22:03.856</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\bin\x86\Debug\CPRApp.exe">
       <PackagePath>entrypoint\CPRApp.exe</PackagePath>
-      <Modified>2017-03-30T16:16:57.741</Modified>
+      <Modified>2017-04-04T11:22:00.424</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damien\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -552,7 +552,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\bin\x86\Debug\CPRApp.xr.xml">
       <PackagePath>CPRApp.xr.xml</PackagePath>
-      <Modified>2017-03-30T16:15:14.109</Modified>
+      <Modified>2017-04-04T10:58:46.012</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -561,11 +561,11 @@
     <AppxPackagedFile Include="C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-30T16:16:59.063</Modified>
+      <Modified>2017-04-04T11:22:03.349</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\bin\x86\Debug\Core\CPRApp.exe">
       <PackagePath>CPRApp.exe</PackagePath>
-      <Modified>2017-03-30T16:16:59.442</Modified>
+      <Modified>2017-04-04T11:22:03.824</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

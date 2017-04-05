@@ -42,7 +42,7 @@ namespace CPRApp
             // status updates, position changes
             initialiseGeoLocation();
 
-        }//elInit_Tapped
+        }//Image tapped
 
         private async void initialiseGeoLocation()
         {
@@ -65,7 +65,7 @@ namespace CPRApp
                 default:
                     break;
             }//switch
-        }//initaliseGeoLocation()
+        }//initialise
 
         private async void MyGeo_StatusChanged(Geolocator sender, StatusChangedEventArgs args)
         {
@@ -103,7 +103,7 @@ namespace CPRApp
                     #endregion
                 });
 
-        }//StatusChanged
+        }//StatusCanged
 
         private async void elSavePosition_Tapped(object sender, TappedRoutedEventArgs e)
         {
@@ -111,7 +111,7 @@ namespace CPRApp
             // create three text boxes, put them in a stack panel and then 
             // add to the existing stack panel
             StackPanel sp;
-            TextBlock tblTime, tblLong, tbLat;
+            TextBlock tblLong, tbLat;
 
             // get the current locations
             try
@@ -128,10 +128,6 @@ namespace CPRApp
             sp = new StackPanel();
             sp.Margin = new Windows.UI.Xaml.Thickness(2);
 
-            // text boxews
-            tblTime = new TextBlock();
-            tblTime.Text = "Time: " + _pos.Coordinate.Timestamp.Day;
-
             tbLat = new TextBlock();
             tbLat.FontSize = 32;
 
@@ -141,7 +137,6 @@ namespace CPRApp
             tblLong.FontSize = 32;
             tblLong.Text = "Long: " + _pos.Coordinate.Point.Position.Longitude.ToString();
 
-            sp.Children.Add(tblTime);
             sp.Children.Add(tbLat);
             sp.Children.Add(tblLong);
 
@@ -149,8 +144,6 @@ namespace CPRApp
             spLocations.Children.Add(sp);
 
         }//SavePosition
-
-
 
 
         private void addContent()
@@ -185,6 +178,8 @@ namespace CPRApp
                 PhoneCallManager.Equals("999", "Emergency Services");
             }
         }//call_Click()
+
+
 
 
 

@@ -208,4 +208,3 @@ C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\obj\ARM\Deb
 C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\obj\ARM\Debug\qualifiers.txt.intermediate
 C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\obj\ARM\Debug\ProjectArchitectures.txt
-C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\obj\ARM\Debug\CPRApp.csprojResolveAssemblyReference.cache

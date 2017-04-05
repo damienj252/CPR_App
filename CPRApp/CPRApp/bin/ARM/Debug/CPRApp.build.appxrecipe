@@ -367,8 +367,11 @@
     <AppxPackagedFile Include="C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\Assets\Images\3Steps.gif">
       <PackagePath>Assets\Images\3Steps.gif</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\Assets\Images\save.png">
-      <PackagePath>Assets\Images\save.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\Assets\Images\save.jpg">
+      <PackagePath>Assets\Images\save.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\Assets\Images\steps.jpg">
+      <PackagePath>Assets\Images\steps.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\Assets\Images\th.png">
       <PackagePath>Assets\Images\th.png</PackagePath>
@@ -399,9 +402,6 @@
     <AppxPackagedFile Include="C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\Assets\Images\steps.jpg">
-      <PackagePath>Assets\Images\steps.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\Assets\Sound\stayingAlive.mp3">
       <PackagePath>Assets\Sound\stayingAlive.mp3</PackagePath>

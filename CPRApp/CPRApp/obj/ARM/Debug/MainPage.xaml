@@ -5,20 +5,20 @@
     xmlns:local="using:CPRApp"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d" Height="1021.934" Width="1497.736">
+    mc:Ignorable="d" Height="1920" Width="1080">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-        <Pivot Title="Hands only CPR" Background="#FF08D6D6" FontWeight="Black">
-            <PivotItem x:ConnectionId='1' x:Name="pvtIntroduction" Header="Introduction" Margin="89,10,9.667,12">
+        <Pivot Title="Hands only CPR" Background="#FF08D6D6" FontWeight="Black" Margin="-10,0,0,-10">
+            <PivotItem x:ConnectionId='1' x:Name="pvtIntroduction" Header="Introduction" Margin="10,10,89,11.8">
 
                 <Grid>
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="500" />
+                        <ColumnDefinition Width="300" />
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
 
-                    <TextBlock x:ConnectionId='13' x:Name="tblIntroduction" 
+                    <TextBlock x:ConnectionId='14' x:Name="tblIntroduction" 
                                    Text=""
                                    Margin="10, 5, 10, 0"
                                    HorizontalAlignment="Left"
@@ -30,14 +30,14 @@
                 </Grid>
             </PivotItem>
 
-            <PivotItem x:ConnectionId='2' x:Name="pvtTraining" Header="Training" Margin="89,10,-51,12">
+            <PivotItem x:ConnectionId='2' x:Name="pvtTraining" Header="Training" Margin="10,10,28,11.8">
                 <Grid>
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="500" />
+                        <ColumnDefinition Width="325" />
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
 
-                    <TextBlock x:ConnectionId='8' x:Name="tblTraining" 
+                    <TextBlock x:ConnectionId='9' x:Name="tblTraining" 
                                    Text=""
                                    Margin="10, 5, 10, 0"
                                    HorizontalAlignment="Left"
@@ -48,51 +48,61 @@
                                    Grid.Column="0" />
 
                     <Image Source="Assets/Images/3steps.gif" Height="158" VerticalAlignment="Top"
-                            Margin="-89,235,217,0" RenderTransformOrigin="0.272,4.771" />
+                            Margin="10,289,135,0" RenderTransformOrigin="0.272,4.771" d:LayoutOverrides="HorizontalAlignment" />
 
                     <Image Source="Assets/Images/steps.jpg" Height="158" VerticalAlignment="Top"
-                            Margin="0,235,10,0" RenderTransformOrigin="0.272,4.771" HorizontalAlignment="Right" Width="130" />
+                            Margin="0,289,0,0" RenderTransformOrigin="0.272,4.771" HorizontalAlignment="Right" Width="130" d:LayoutOverrides="LeftMargin, RightMargin" />
 
-                    <MediaElement x:ConnectionId='9' x:Name="stayingAlive" AutoPlay="False" Source="Assets/Sound/stayingAlive.mp3" HorizontalAlignment="Left" Height="10" Margin="20,130,0,0" RenderTransformOrigin="0.5,0.5" VerticalAlignment="Top" Width="7">
+                    <MediaElement x:ConnectionId='10' x:Name="stayingAlive" AutoPlay="False" Source="Assets/Sound/stayingAlive.mp3" HorizontalAlignment="Left" Height="10" Margin="20,130,0,0" RenderTransformOrigin="0.5,0.5" VerticalAlignment="Top" Width="7">
                         <MediaElement.RenderTransform>
                             <CompositeTransform ScaleY="-1" ScaleX="-1"/>
                         </MediaElement.RenderTransform>
                     </MediaElement>
-                    <Button x:ConnectionId='10'                                 x:Name="button" Content="Play" HorizontalAlignment="Left" Margin="0,120,0,0" VerticalAlignment="Top" Width="61"/>
-                    <Button x:ConnectionId='11'                                      x:Name="stopButton" Content="Stop" HorizontalAlignment="Left" Margin="85,120,0,0" VerticalAlignment="Top" Width="61"/>
-                    <Button x:ConnectionId='12'                          x:Name="callButton" Content="Call" Margin="179,120,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.508,0.531" Width="61" />
+                    <Button x:ConnectionId='11'                                 x:Name="button" Content="Play" HorizontalAlignment="Left" Margin="10,232,0,0" VerticalAlignment="Top" Width="61"/>
+                    <Button x:ConnectionId='12'                                      x:Name="stopButton" Content="Stop" HorizontalAlignment="Stretch" Margin="91,232,148,0" VerticalAlignment="Top" d:LayoutOverrides="LeftPosition, RightPosition"/>
+                    <Button x:ConnectionId='13'                          x:Name="callButton" Content="Call" Margin="195,232,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.508,0.531" Width="61" />
 
 
                 </Grid>
             </PivotItem>
 
-            <PivotItem x:ConnectionId='3' x:Name="pvtLocation" Header="Location" Margin="28,10,10,12">
+            <PivotItem x:ConnectionId='3' x:Name="pvtLocation" Header="Location" Margin="10,10,28.4,0" Height="658" VerticalAlignment="Top">
                 <Grid>
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="500" />
-                        <ColumnDefinition Width="857*" />
-                        <ColumnDefinition Width="103*"/>
+                        <ColumnDefinition Width="400" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
 
-                    <StackPanel x:ConnectionId='4' x:Name="spLocations" HorizontalAlignment="Center" Margin="250,0"></StackPanel>
+                    <TextBlock x:ConnectionId='4' x:Name="tblLocation" 
+                                   Text=""
+                                   Margin="10, 5, 10, 0"
+                                   HorizontalAlignment="Left"
+                                   VerticalAlignment="Top"
+                                   TextWrapping="Wrap" 
+                                   FontFamily="TimesNewRoman"
+                                   FontSize="12"
+                                   Grid.Column="0" />
 
-                    <TextBlock x:ConnectionId='5' x:Name="tblStatus" Text="Location Updates" VerticalAlignment="Bottom"/>
-
-                    <StackPanel VerticalAlignment="Bottom" Orientation="Horizontal" Margin="10, 0, 10, 30">
-                        <Ellipse x:ConnectionId='6' x:Name="elInit" Width="100" Height="75" Margin="4"
+                    <StackPanel HorizontalAlignment="Left" VerticalAlignment="Bottom" Orientation="Vertical" Margin="20,0,0,-310" Height="307">
+                        <Ellipse x:ConnectionId='7' x:Name="elInit" Width="100" Height="75" Margin="4"
                                        >
                             <Ellipse.Fill>
-                                <ImageBrush ImageSource="Assets/Images/th.png"/>
+                                <ImageBrush ImageSource="Assets/Images/th.png" />
                             </Ellipse.Fill>
                         </Ellipse>
-                        <Ellipse x:ConnectionId='7' x:Name="elSavePosition" Width="100" Height="75" Margin="4"
+                        <Ellipse x:ConnectionId='8' x:Name="elSavePosition" Width="100" Height="75" Margin="4"
                                                >
                             <Ellipse.Fill>
-                                <ImageBrush ImageSource="Assests/Images/save.png"/>
+                                <ImageBrush ImageSource="Assets/Images/save.jpg" />
                             </Ellipse.Fill>
                         </Ellipse>
-
                     </StackPanel>
+
+                    <StackPanel x:ConnectionId='5' x:Name="spLocations" HorizontalAlignment="Left" >
+                        <TextBlock x:ConnectionId='6' x:Name="tblStatus" Text="GeoLocation Updates" VerticalAlignment="Bottom" Margin="10,0,0,44" Height="116" Width="479" />
+                    </StackPanel>
+
                 </Grid>
             </PivotItem>
 
