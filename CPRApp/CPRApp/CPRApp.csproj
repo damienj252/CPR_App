@@ -110,6 +110,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Images\3Steps.gif" />
+    <Content Include="Assets\Images\clear.jpg" />
     <Content Include="Assets\Images\save.jpg" />
     <Content Include="Assets\Images\steps.jpg" />
     <Content Include="Assets\Images\th.png" />

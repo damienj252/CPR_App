@@ -66,8 +66,8 @@
                 </Grid>
             </PivotItem>
 
-            <PivotItem x:Name="pvtLocation" Header="Location" Margin="10,10,28.4,0" Height="658" VerticalAlignment="Top">
-                <Grid>
+            <PivotItem x:Name="pvtLocation" Header="Location" Margin="10,-16,28,0" Height="658" VerticalAlignment="Top">
+                <Grid Height="109">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="400" />
                         <ColumnDefinition Width="*" />
@@ -76,7 +76,7 @@
 
                     <TextBlock x:Name="tblLocation" 
                                    Text=""
-                                   Margin="10, 5, 10, 0"
+                                   Margin="10, 100, 10, 0"
                                    HorizontalAlignment="Left"
                                    VerticalAlignment="Top"
                                    TextWrapping="Wrap" 
@@ -84,24 +84,31 @@
                                    FontSize="12"
                                    Grid.Column="0" />
 
-                    <StackPanel HorizontalAlignment="Left" VerticalAlignment="Bottom" Orientation="Vertical" Margin="20,0,0,-310" Height="307">
-                        <Ellipse x:Name="elInit" Width="100" Height="75" Margin="4"
-                 Tapped="elInit_Tapped">
+                    <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Vertical" Margin="10,114,0,-550" Height="550" Width="143">
+                        <Ellipse x:Name="elInit" Width="100" Height="75" Margin="22,4,0,4" Tapped="elInit_Tapped" HorizontalAlignment="Left">
                             <Ellipse.Fill>
                                 <ImageBrush ImageSource="Assets/Images/th.png" />
                             </Ellipse.Fill>
                         </Ellipse>
+
                         <Ellipse x:Name="elSavePosition" Width="100" Height="75" Margin="4"
                  Tapped="elSavePosition_Tapped">
                             <Ellipse.Fill>
                                 <ImageBrush ImageSource="Assets/Images/save.jpg" />
                             </Ellipse.Fill>
                         </Ellipse>
+
+                        <Ellipse x:Name="elClear" Width="100" Height="75" Margin="4" Tapped="elClear_Tapped">
+                            <Ellipse.Fill>
+                                <ImageBrush ImageSource="Assets/Images/clear.jpg" />
+                            </Ellipse.Fill>
+                        </Ellipse>
+
                     </StackPanel>
 
-                    <StackPanel x:Name="spLocations" HorizontalAlignment="Left" >
-                        <TextBlock x:Name="tblStatus" Text="GeoLocation Updates" VerticalAlignment="Bottom" Margin="10,0,0,44" Height="116" Width="479" />
+                    <StackPanel x:Name="spLocations" HorizontalAlignment="Left" Margin="10,40,5,-5" >
                     </StackPanel>
+                    <TextBlock x:Name="tblStatus" Text="Location Updates" VerticalAlignment="Bottom" Margin="10,0,247,70" Height="24" Grid.ColumnSpan="2" />
 
                 </Grid>
             </PivotItem>

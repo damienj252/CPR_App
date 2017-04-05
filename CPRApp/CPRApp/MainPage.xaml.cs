@@ -44,6 +44,7 @@ namespace CPRApp
 
         }//Image tapped
 
+        
         private async void initialiseGeoLocation()
         {
             var access = await Geolocator.RequestAccessAsync();
@@ -111,7 +112,7 @@ namespace CPRApp
             // create three text boxes, put them in a stack panel and then 
             // add to the existing stack panel
             StackPanel sp;
-            TextBlock tblLong, tbLat;
+            TextBlock tblLong, tblLat;
 
             // get the current locations
             try
@@ -128,22 +129,27 @@ namespace CPRApp
             sp = new StackPanel();
             sp.Margin = new Windows.UI.Xaml.Thickness(2);
 
-            tbLat = new TextBlock();
-            tbLat.FontSize = 32;
+            tblLat = new TextBlock();
+            tblLat.FontSize = 14;
 
-            tbLat.Text = "Lat:  " + _pos.Coordinate.Point.Position.Latitude.ToString();
+            tblLat.Text = "Lat:  " + _pos.Coordinate.Point.Position.Latitude.ToString();
 
             tblLong = new TextBlock();
-            tblLong.FontSize = 32;
+            tblLong.FontSize = 14;
             tblLong.Text = "Long: " + _pos.Coordinate.Point.Position.Longitude.ToString();
 
-            sp.Children.Add(tbLat);
+            sp.Children.Add(tblLat);
             sp.Children.Add(tblLong);
 
             // add to the screen
             spLocations.Children.Add(sp);
 
         }//SavePosition
+        private void elClear_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            spLocations.Children.Clear();
+        }//elClear_Tapped()
+
 
 
         private void addContent()
@@ -176,7 +182,7 @@ namespace CPRApp
             if (Windows.Foundation.Metadata.ApiInformation.IsTypePresent("Windows.ApplicationModel.Calls.PhoneCallManager"))
             {
                 PhoneCallManager.Equals("999", "Emergency Services");
-            }
+            }//if 
         }//call_Click()
 
 
