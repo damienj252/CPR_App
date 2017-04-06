@@ -7,7 +7,6 @@ C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\bin\x86\Deb
 C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\bin\x86\Debug\AppxManifest.xml
 C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\bin\x86\Debug\Core\AppxManifest.xml
 C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\bin\x86\Debug\Core\CPRApp.exe
-C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\bin\x86\Debug\CPRApp.build.appxrecipe
 C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\bin\x86\Debug\Microsoft.CSharp.dll
 C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\bin\x86\Debug\System.ComponentModel.DataAnnotations.dll
 C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\bin\x86\Debug\System.Core.dll
@@ -209,4 +208,4 @@ C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\obj\x86\Deb
 C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\obj\x86\Debug\ProjectArchitectures.txt
-C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\obj\x86\Debug\CPRApp.csprojResolveAssemblyReference.cache
+C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\bin\x86\Debug\CPRApp.build.appxrecipe

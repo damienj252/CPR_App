@@ -14,7 +14,7 @@
 
                 <Grid>
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="300" />
+                        <ColumnDefinition Width="340" />
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
 
@@ -27,13 +27,17 @@
                                    FontFamily="TimesNewRoman"
                                    FontSize="12"
                                    Grid.Column="0" />
+
+                    <Image Source="Assets/Images/logo.png" Height="158" VerticalAlignment="Top"
+                            Margin="0,267,200,0" RenderTransformOrigin="0.272,4.771" HorizontalAlignment="Right" Width="130" />
+
                 </Grid>
             </PivotItem>
 
             <PivotItem x:Name="pvtTraining" Header="Training" Margin="10,10,28,11.8">
                 <Grid>
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="325" />
+                        <ColumnDefinition Width="340" />
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
 
@@ -59,8 +63,10 @@
                         </MediaElement.RenderTransform>
                     </MediaElement>
                     <Button Click="StayingAlive_Song_Click" x:Name="button" Content="Play" HorizontalAlignment="Left" Margin="10,232,0,0" VerticalAlignment="Top" Width="61"/>
-                    <Button Click="Stop_StayingAlive_Song_Click" x:Name="stopButton" Content="Stop" HorizontalAlignment="Stretch" Margin="91,232,148,0" VerticalAlignment="Top" d:LayoutOverrides="LeftPosition, RightPosition"/>
-                    <Button Click="callButton_Click" x:Name="callButton" Content="Call" Margin="195,232,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.508,0.531" Width="61" />
+                    <Button Click="Stop_StayingAlive_Song_Click" x:Name="stopButton" Content="Stop" HorizontalAlignment="Stretch" Margin="89,232,190,0" VerticalAlignment="Top" Width="61"/>
+                    <Button Click="callButton_Click" x:Name="callButton" Content="Call" Margin="169,232,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.508,0.531" Width="61" />
+                    <HyperlinkButton Content="Tutorial" HorizontalAlignment="Left" Margin="248,232,0,0" VerticalAlignment="Top" NavigateUri="https://www.youtube.com/watch?v=tD2qTmDsiHk"/>
+
 
 
                 </Grid>
@@ -69,7 +75,7 @@
             <PivotItem x:Name="pvtLocation" Header="Location" Margin="10,-16,28,0" Height="658" VerticalAlignment="Top">
                 <Grid Height="109">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="400" />
+                        <ColumnDefinition Width="340" />
                         <ColumnDefinition Width="*" />
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>

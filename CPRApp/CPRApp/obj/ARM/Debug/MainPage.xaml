@@ -27,6 +27,10 @@
                                    FontFamily="TimesNewRoman"
                                    FontSize="12"
                                    Grid.Column="0" />
+
+                    <Image Source="Assets/Images/logo.png" Height="158" VerticalAlignment="Top"
+                            Margin="0,289,0,0" RenderTransformOrigin="0.272,4.771" HorizontalAlignment="Right" Width="130" d:LayoutOverrides="LeftMargin, RightMargin" />
+
                 </Grid>
             </PivotItem>
 

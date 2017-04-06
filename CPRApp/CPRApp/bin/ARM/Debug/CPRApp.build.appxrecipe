@@ -376,6 +376,12 @@
     <AppxPackagedFile Include="C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\Assets\Images\steps.jpg">
       <PackagePath>Assets\Images\steps.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\Assets\Images\logo.png">
+      <PackagePath>Assets\Images\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\Assets\Images\opening.png">
+      <PackagePath>Assets\Images\opening.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damien\Documents\Mobile Applications 2\CPRApp\CPRApp\CPRApp\Assets\Images\th.png">
       <PackagePath>Assets\Images\th.png</PackagePath>
     </AppxPackagedFile>
