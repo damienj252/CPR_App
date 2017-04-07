@@ -1,5 +1,5 @@
 # Mobile_Applications2
-This is a windows 10 app that will teach the user how to preform hands only CPR as well as an option to call emergency services
+This is a windows 10 app that will teach the user how to preform hands only CPR as well as an exact GPS location of longitude and latitude
 
 # Why I built this application
 Many people die each year from heart related issues and many people have heart attacks on a day to day basis and many of those causes
